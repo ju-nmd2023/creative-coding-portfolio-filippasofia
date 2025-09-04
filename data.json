@@ -12,6 +12,6 @@
   {
     "file": "experiments/example03.js",
     "name": "Recreation of Molnár 3",
-    "description": "This version is somewhat inspired by Molnár but with the thoughts of flowers instead of squares. The lines has different thickness and colors to make the drawing feel more alive."
+    "description": "This version is a rework from my 2:nd recreation but with full-blown flowers instead of squares and circles. The petal-shapes where made with help of discusing with ChatGPT."
   }
 ]
