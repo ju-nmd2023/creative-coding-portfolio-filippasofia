@@ -10,10 +10,10 @@ function getRandomValue(pos, variance) {
 }
 
 function drawLayers(x, y, size, layers) {
-  // const half = size / 2;
+  
   const variance = size / 20;
   noFill();
-  // rectMode(CENTER);
+  
   for (let i = 0; i < layers; i++) {
     if (Math.random() > 0.8) {
       continue;
@@ -39,15 +39,13 @@ function drawLayers(x, y, size, layers) {
       getRandomValue(y + half, variance)
     );
     endShape(CLOSE);
-    // rect(x - half, y - half, s, s);
   }
 }
 
 function draw() {
-  background(255, 255, 255);
+  background(255, 200, 200);
 
 
-  // drawLayers(100, 100, size, layers);
   for (let y = 0; y < 10; y++) {
     for (let x = 0; x < 10; x++) {
       drawLayers(size / 2 + x * size, size / 2 + y * size, size, layers);
