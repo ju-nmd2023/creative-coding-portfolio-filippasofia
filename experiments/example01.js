@@ -11,7 +11,7 @@ function getRandomValue(pos, variance) {
 
 function drawLayers(x, y, size, layers) {
   // const half = size / 2;
-  const variance = size / 50;
+  const variance = size / 20;
   noFill();
   // rectMode(CENTER);
   for (let i = 0; i < layers; i++) {
@@ -25,6 +25,7 @@ function drawLayers(x, y, size, layers) {
       getRandomValue(x - half, variance),
       getRandomValue(y - half, variance)
     );
+    stroke(255,120,120);
     vertex(
       getRandomValue(x + half, variance),
       getRandomValue(y - half, variance)
@@ -44,6 +45,7 @@ function drawLayers(x, y, size, layers) {
 
 function draw() {
   background(255, 255, 255);
+
 
   // drawLayers(100, 100, size, layers);
   for (let y = 0; y < 10; y++) {

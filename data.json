@@ -1,7 +1,12 @@
 [
   {
-    "file": "experiments/example.js",
+    "file": "experiments/example01.js",
     "name": "Recreation of Molnár 1",
-    "description": "I wanted to make a recreation of Molnárs work, but with more structure and clean lines"
+    "description": "I wanted to make a recreation of Molnárs work, but with more structure and clean lines. The foundation is made out of Garrit's code example but with my own tweaks and adjustments."
+  },
+  {
+    "file": "experiments/example02.js",
+    "name": "Recreation of Molnár 2",
+    "description": "This follows the first recreation with structure and cleaner lines but I added more color and different thickness to the lines"
   }
 ]
