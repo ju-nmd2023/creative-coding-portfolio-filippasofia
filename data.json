@@ -8,5 +8,10 @@
     "file": "experiments/example02.js",
     "name": "Recreation of Molnár 2",
     "description": "This version is somewhat inspired by Molnár but with the thoughts of flowers instead of squares. The lines has different thickness and colors to make the drawing feel more alive."
+  },
+  {
+    "file": "experiments/example03.js",
+    "name": "Recreation of Molnár 3",
+    "description": "This version is somewhat inspired by Molnár but with the thoughts of flowers instead of squares. The lines has different thickness and colors to make the drawing feel more alive."
   }
 ]
