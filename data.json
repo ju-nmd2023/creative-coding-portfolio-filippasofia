@@ -1,7 +1,7 @@
 [
   {
     "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Recreation of Molnár 1",
+    "description": "I wanted to make a recreation of Molnárs work, but with more structure and clean lines"
   }
 ]
