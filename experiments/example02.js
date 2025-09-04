@@ -10,7 +10,7 @@ function setup() {
         for (let i = 0; i < layers; i++) {
           let rand = Math.random();
           if (rand < 0.33) {
-            colorGrid[y][x][i] = color(255, 255, 255); 
+            colorGrid[y][x][i] = color(245, 235, 245); 
           } else if (rand < 0.66) {
             colorGrid[y][x][i] = color(205, 131, 168); 
           } else {
@@ -28,7 +28,7 @@ function setup() {
   let colorGrid = [];
   
   function drawLayers(x, y, size, layers, gridX, gridY) {
-    const variance = size / 15;
+    const variance = size / 12;
     noFill();
   
     let thick = Math.random() > 0.75; 
@@ -37,7 +37,7 @@ function setup() {
     for (let i = 0; i < layers; i++) {
       if (Math.random() > 0.8) continue;
   
-      stroke(colorGrid[gridY][gridX][i]); // använd färgen från arrayen
+      stroke(colorGrid[gridY][gridX][i]); 
   
       const r = (size / layers) * i / 2;
   
@@ -53,7 +53,7 @@ function setup() {
   }
   
   function draw() {
-    background(255,255,255, 1);
+    background(255,255,255, 10);
   
     for (let y = 0; y < 10; y++) {
       for (let x = 0; x < 10; x++) {

@@ -10,11 +10,11 @@ function setup() {
       for (let i = 0; i < layers; i++) {
         let rand = Math.random();
         if (rand < 0.33) {
-          colorGrid[y][x][i] = color(255, 255, 255); 
+          colorGrid[y][x][i] = color(241, 180, 213); 
         } else if (rand < 0.66) {
-          colorGrid[y][x][i] = color(205, 131, 168); 
+          colorGrid[y][x][i] = color(205, 222, 224); 
         } else {
-          colorGrid[y][x][i] = color(130, 29, 38); 
+          colorGrid[y][x][i] = color(178, 46, 109); 
         }
       }
     }
@@ -22,12 +22,12 @@ function setup() {
 }
 
 const size = 120;
-const layers = 8;
+const layers = 3;
 
 let colorGrid = [];
 
 function drawLayers(x, y, size, layers, gridX, gridY) {
-  const variance = size / 20;
+  const variance = size / 40;
   noFill();
 
   let thick = Math.random() > 0.7; 
@@ -57,7 +57,7 @@ function drawLayers(x, y, size, layers, gridX, gridY) {
 }
 
 function draw() {
-  background(10); 
+  background(241, 241, 143, 25); 
 
   for (let y = 0; y < 10; y++) {
     for (let x = 0; x < 10; x++) {

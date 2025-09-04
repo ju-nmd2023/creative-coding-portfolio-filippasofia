@@ -1,17 +1,27 @@
 [
   {
     "file": "experiments/example01.js",
-    "name": "Recreation of Molnár 1",
+    "name": "Week 1 - Recreation of Molnár 1",
     "description": "I wanted to make a recreation of Molnárs work, but with more structure and clean lines. The foundation is made out of Garrit's code example but with my own tweaks and adjustments."
   },
   {
     "file": "experiments/example02.js",
-    "name": "Recreation of Molnár 2",
-    "description": "This version is somewhat inspired by Molnár but with the thoughts of flowers instead of squares. The lines has different thickness and colors to make the drawing feel more alive."
+    "name": "Week 1 - Recreation of Molnár 2",
+    "description": "This version is somewhat inspired by Molnár but with circles instead of squares. The lines has different thickness and colors to make the drawing feel more alive."
   },
   {
     "file": "experiments/example03.js",
-    "name": "Recreation of Molnár 3",
-    "description": "This version is a rework from my 2:nd recreation but with full-blown flowers instead of squares and circles. The petal-shapes where made with help of discusing with ChatGPT."
+    "name": "Week 1 - Recreation of Molnár 3",
+    "description": "This version is a rework from my 2:nd recreation but with clear flowers instead of circles. The petal shapes were created with help and discussions with ChatGPT."
+  },
+  {
+    "file": "experiments/example04.js",
+    "name": "Week 1 - Recreation of Noise 1",
+    "description": "Slow flowing squares inspired by Garrit's noise-code."
+  },
+  {
+    "file": "experiments/example05.js",
+    "name": "Week 1 - Recreation of Noise 2",
+    "description": "Vibrant circles inspired by Garrit's noise-code."
   }
 ]

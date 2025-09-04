@@ -25,7 +25,7 @@ function drawLayers(x, y, size, layers) {
       getRandomValue(x - half, variance),
       getRandomValue(y - half, variance)
     );
-    stroke(255,120,120);
+    stroke(255,100,100);
     vertex(
       getRandomValue(x + half, variance),
       getRandomValue(y - half, variance)
