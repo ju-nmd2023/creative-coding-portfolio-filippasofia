@@ -32,7 +32,7 @@
   {
     "file": "experiments/example07.js",
     "name": "Week 2 - The Seashell",
-    "description": "This is a variation inspired by flow fields, but less random than traditional flow fields like Tyler Hobbs, it is made with the vision of resembling a seashell."
+    "description": "This is a variation inspired by flow fields, that something is flowingly upbuilding, but I wanted to have something less random and with the vision of resembling a seashell."
   },
   {
     "file": "experiments/example08.js",
@@ -42,6 +42,11 @@
 {
   "file": "experiments/example09.js",
   "name": "Week 3 - The Kaleidoscope 2",
-  "description": "..."
+  "description": "Feel free to paint by dragging the mouse around."
+},
+{
+  "file": "experiments/example10.js",
+  "name": "Week 4 - Flow Field w/ sound",
+  "description": "Press 'space' to play and stop the sound of the Flow Field."
 }
 ]
