@@ -1,8 +1,16 @@
 let lines = [];
+let oscillator;
+let isPlaying;
+
+window.addEventListener("load", () => {
+  oscillator = new Tone.Oscillator(440, "sine").toDestination();
+});
 
 function setup() {
   createCanvas(650, 650);
   background(255); 
+
+  isPlaying = false;
 
   for (let i = 0; i < 300; i++) {
     lines.push(new FlowLine(random(width), random(height)));
@@ -15,6 +23,20 @@ function draw() {
     l.show();
   }
 }
+
+document.addEventListener("keydown", (event) => {
+  if (event.code === "Space") {
+    if (isPlaying === true)
+    {
+      oscillator.stop();
+      isPlaying = false;
+    } else {
+      oscillator.start();
+      isPlaying = true;
+    }
+  }
+});
+
 
 class FlowLine {
   constructor(x, y) {
