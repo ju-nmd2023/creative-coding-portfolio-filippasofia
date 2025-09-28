@@ -1,9 +1,12 @@
+//the parts of the code including tone.js is inspired by the tone.js - oscillator-code 
+//given from Bassima in the lecture CC Generative Sound.
 let lines = [];
 let oscillator;
 let isPlaying;
+let freq;
 
 window.addEventListener("load", () => {
-  oscillator = new Tone.Oscillator(440, "sine").toDestination();
+  oscillator = new Tone.Oscillator(100, "sine").toDestination();
 });
 
 function setup() {
@@ -11,6 +14,8 @@ function setup() {
   background(255); 
 
   isPlaying = false;
+  freq = 100;
+
 
   for (let i = 0; i < 300; i++) {
     lines.push(new FlowLine(random(width), random(height)));
@@ -22,6 +27,16 @@ function draw() {
     l.update();
     l.show();
   }
+
+  if (isPlaying === true) {
+
+    oscillator.frequency.value += 0.25;
+
+    if(oscillator.frequency.value > 2500) {
+      oscillator.stop();
+      isPlaying = false;
+    }
+  }
 }
 
 document.addEventListener("keydown", (event) => {
@@ -31,6 +46,7 @@ document.addEventListener("keydown", (event) => {
       oscillator.stop();
       isPlaying = false;
     } else {
+      oscillator.frequency.value = freq;
       oscillator.start();
       isPlaying = true;
     }
