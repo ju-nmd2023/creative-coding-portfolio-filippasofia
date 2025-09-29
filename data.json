@@ -12,7 +12,7 @@
   {
     "file": "experiments/example03.js",
     "name": "Week 1 - Recreation of Molnár 3",
-    "description": "This version is a rework from my 2:nd recreation but with clear flowers instead of circles. The petal shapes were created with help and discussions with ChatGPT."
+    "description": "This version is a rework from my 2:nd recreation but with clear flowers instead of circles."
   },
   {
     "file": "experiments/example04.js",
