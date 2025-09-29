@@ -1,3 +1,4 @@
+//This code is inspired by Garrit's noise-code 
 function setup() {
   createCanvas(800, 600);
   frameRate(10);

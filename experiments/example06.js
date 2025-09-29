@@ -1,3 +1,5 @@
+// Flow field inspired generative artwork
+// Inspired by Tyler Hobbs: https://www.tylerxhobbs.com/words/flow-fields
 let lines = [];
 
 function setup() {

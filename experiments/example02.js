@@ -2,7 +2,7 @@ function setup() {
     createCanvas(1050, 1050);
     frameRate(3);
   
-    // add pink, white or dark red colors to circles
+   
     for (let y = 0; y < 10; y++) {
       colorGrid[y] = [];
       for (let x = 0; x < 10; x++) {

@@ -1,3 +1,5 @@
+// The following code is inspired by Bassima's lecture.
+// I have made adjustments to create my own version of the animation.
 let position;
 let velocity;
 let acceleration;

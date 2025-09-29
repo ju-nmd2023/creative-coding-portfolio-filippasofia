@@ -1,4 +1,4 @@
-//the parts of the code including tone.js is inspired by the tone.js - oscillator-code 
+//The parts of the code including tone.js is inspired by the tone.js - oscillator-code 
 //given from Bassima in the lecture CC Generative Sound.
 let lines = [];
 let oscillator;
@@ -87,7 +87,7 @@ class FlowLine {
 
   show() {
     stroke(0);        
-    strokeWeight(1.5);  
+    strokeWeight(1.2);  
     line(this.prev.x, this.prev.y, this.pos.x, this.pos.y);
   }
 }

@@ -1,3 +1,6 @@
+// This code is made with help from my fiancé Erik (engineer & software developer),
+// through personal communication (2025).
+
 let cx, cy;
 let angle = Math.PI; 
 let angleStep = 0.02; 
